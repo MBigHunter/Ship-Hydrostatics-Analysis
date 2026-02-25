@@ -20,6 +20,8 @@ The hull was developed using NURBS surfaces based on non-dimensional offset data
 Comprehensive analysis of ship stability and buoyancy distribution.
 ![Bonjean Curve](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Bonjean%20Curve.png)
 
+![Gz Curve](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Stability%20Curve%203.png)
+
 ## 📂 Repository Contents
 * **/Documents**: Project description and final technical report (PDF).
 * **/Models**: Maxsurf design files and SolidWorks CAD parts.
