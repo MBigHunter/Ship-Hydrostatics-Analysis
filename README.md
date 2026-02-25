@@ -28,4 +28,4 @@ Comprehensive analysis of ship stability and buoyancy distribution.
 
 ## 📧 Contact
 **Mohammad Aldaghi** - Marine Engineering Student at Sharif University of Technology.
-/n **Email** - Aldaghi34@gmail.com  Moh.aldaghi84@sharif.edu
+<br>**Email** - Aldaghi34@gmail.com  Moh.aldaghi84@sharif.edu
