@@ -1,30 +1,90 @@
-# 🚢 Ship Hydrostatics & Hull Modeling Project
+# 🚢 Ship Hydrostatics & Hull Surface Modeling (Maxsurf + SolidWorks + Excel)
 
-## 📝 Overview
-This repository showcases a comprehensive **Naval Architecture** project focused on the end-to-end process of ship hull design and hydrostatic evaluation. Developed at **Sharif University of Technology** under the supervision of **Dr. Khorasanchi**, this project bridges the gap between theoretical fluid statics and practical computer-aided design.
+[![Discipline](https://img.shields.io/badge/Discipline-Naval%20Architecture-0b7285?style=flat-square)](#)
+[![Tools](https://img.shields.io/badge/Tools-Maxsurf%20%7C%20SolidWorks%20%7C%20Excel-364fc7?style=flat-square)](#)
+[![Language](https://img.shields.io/badge/Report-Persian-7950f2?style=flat-square)](#)
+[![Docs](https://img.shields.io/badge/Docs-English%20README-343a40?style=flat-square)](#)
 
-> **Note:** Technical reports are written in **Persian**, while the documentation and repository structure are maintained in **English** for global outreach.
+A complete end-to-end naval architecture workflow developed at **Sharif University of Technology** under the supervision of **Dr. Khorasanchi**.  
+This project reconstructs a full-scale hull from an **offset table**, generates a **faired NURBS surface**, performs **hydrostatic & intact stability analyses**, and **numerically validates** key outputs using independent **Excel-based calculations**.
 
-## 🚀 Key Achievements
-* **Geometric Transformation:** Converted non-dimensional offset tables into a precise 1:1 scale 3D model.
-* **Surface Fairing:** Achieved a high-quality NURBS surface hull in Maxsurf with smooth curvature distribution.
-* **Integrity Verification:** Cross-validated software-generated hydrostatic data with manual Excel-based mathematical models.
-* **Stability Profiling:** Conducted full intact stability analysis and generated Bonjean curves for longitudinal strength assessment.
+> Technical report: **Persian** (PDF)  
+> Repository documentation: **English** (this README)
 
-## 🛠 Tools & Technologies
-* **Maxsurf Modeler & Stability:** 3D Surface modeling & Hydrostatic analysis.
-* **SolidWorks:** Mechanical CAD design and .STEP export.
-* **MS Excel:** Advanced data processing and numerical verification.
+---
 
-## 📊 Project Visuals
-### 1. 3D Hull Geometry
-*Precise modeling of the ship's hull using Maxsurf Modeler.*
+## 📌 Highlights
+- Converted **non-dimensional offsets → full-scale (1:1) hull geometry**
+- Performed **curve fairing** and created a **high-quality NURBS surface** in **Maxsurf**
+- Computed **hydrostatics** across drafts (e.g., displacement, KB, BM, GM, LCB)
+- Verified results using **independent Excel numerical models**
+- Generated **GZ curves** (intact stability) and **Bonjean curves** for longitudinal assessment
+
+---
+
+## 🧭 Table of Contents
+- [Project Scope](#-project-scope)
+- [Methodology](#-methodology)
+- [Results](#-results)
+- [Tools](#-tools)
+- [Repository Structure](#-repository-structure)
+- [How to Reproduce](#-how-to-reproduce)
+- [Notes](#-notes)
+- [Future Work](#-future-work)
+- [Contact](#-contact)
+
+---
+
+## 🎯 Project Scope
+This repository bridges:
+1) classical **hydrostatics & stability theory**, and  
+2) practical **computer-aided hull modeling** and **software verification**.
+
+The core goal is not only producing a hull model, but also demonstrating **engineering integrity** through **cross-validation**.
+
+---
+
+## 🧪 Methodology
+1. **Offset Processing (Scaling & Reconstruction)**
+   - Non-dimensional offset tables converted to full-scale coordinates
+   - Station/section curves reconstructed and checked for consistency
+
+2. **Hydrostatic Analysis (Maxsurf Stability)**
+   - Hydrostatic parameters computed across multiple drafts
+
+3. **Numerical Verification (Excel)**
+   - Independent hydrostatic computations implemented in Excel
+   - Cross-check with Maxsurf outputs (error/consistency evaluation)
+
+4. **Stability & Longitudinal Assessment**
+   - Intact stability: **GZ curve**
+   - Longitudinal assessment: **Bonjean curves**
+
+---
+
+## 📊 Results
+### Key Plots (examples)
+**3D Hull Geometry**
+- `Media/Hull Design.png`  
 ![Hull Design](Media/Hull%20Design.png)
 
-### 2. Hydrostatic & Stability Analysis
-*Generation of Bonjean and GZ curves to ensure maritime safety standards.*
+**Bonjean Curves**
+- `Media/Bonjean Curve.png`  
 ![Bonjean Curve](Media/Bonjean%20Curve.png)
-![Gz Curve](Media/Stability%20Curve%203.png)
+
+**Stability (GZ) Curve**
+- `Media/Stability Curve 3.png`  
+![GZ Curve](Media/Stability%20Curve%203.png)
+
+
+---
+
+## 🛠 Tools
+- **Maxsurf Modeler & Stability**: Hull surface modeling + hydrostatics/stability
+- **SolidWorks**: CAD refinement + `.STEP` export
+- **MS Excel**: Offset conversion + numerical verification models
+
+---
 
 ## 📂 Repository Structure
 * **/Documents**: Project brief and the final Technical Report (PDF).
@@ -32,7 +92,40 @@ This repository showcases a comprehensive **Naval Architecture** project focused
 * **/Calculations**: Excel workbooks containing offset conversions and hydrostatic tables.
 * **/Media**: Body plans, sheer plans, and high-resolution stability plots.
 
-## 📬 Contact & Connect
-**Mohammad Aldaghi** *Marine Engineering Student | Sharif University of Technology* 
-<br> [![Email](https://img.shields.io/badge/Email-Aldaghi34%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:Aldaghi34@gmail.com)
-<br> [![Email](https://img.shields.io/badge/Email-Moh.aldaghi84%40sharif.edu-red?style=flat-square&logo=gmail)](mailto:Moh.aldaghi84@sharif.edu)
+* 
+---
+
+## 🔁 How to Reproduce
+1) **Open the hull model**
+- Maxsurf: `Models/*.msd`
+
+2) **Run hydrostatics & stability**
+- Use Maxsurf Stability (draft range / loading condition as defined in your report)
+
+3) **Export CAD (optional)**
+- SolidWorks: open `Models/*.SLDPRT`
+- Export `.STEP` for interoperability
+
+---
+
+## 📝 Notes
+- Reports and detailed derivations are provided in **Persian** under `/Documents`.
+- Repository documentation is designed for international review and academic evaluation.
+- If you use this repository for learning or extension, please cite or reference it appropriately.
+
+---
+
+## 🔭 Future Work
+Potential extensions (research-oriented):
+- CFD-based resistance prediction
+- Seakeeping analysis
+- Coupled hydrostatic–structural workflow
+- Automation with Python/MATLAB for hydrostatics & plotting
+
+---
+
+## 📬 Contact
+**Mohammad Aldaghi**  
+Marine Engineering Student | Sharif University of Technology  
+- Email: `Aldaghi34@gmail.com`  
+- Email: `Moh.aldaghi84@sharif.edu`
