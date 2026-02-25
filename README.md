@@ -33,5 +33,6 @@ This repository showcases a comprehensive **Naval Architecture** project focused
 * **/Media**: Body plans, sheer plans, and high-resolution stability plots.
 
 ## 📬 Contact & Connect
-**Mohammad Aldaghi** *Marine Engineering Student | Sharif University of Technology* [![Email](https://img.shields.io/badge/Email-Aldaghi34%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:Aldaghi34@gmail.com)
-[![Email](https://img.shields.io/badge/Email-Moh.aldaghi84%40sharif.edu-red?style=flat-square&logo=gmail)](mailto:Moh.aldaghi84@sharif.edu)
+**Mohammad Aldaghi** *Marine Engineering Student | Sharif University of Technology* 
+<br> [![Email](https://img.shields.io/badge/Email-Aldaghi34%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:Aldaghi34@gmail.com)
+<br> [![Email](https://img.shields.io/badge/Email-Moh.aldaghi84%40sharif.edu-red?style=flat-square&logo=gmail)](mailto:Moh.aldaghi84@sharif.edu)
