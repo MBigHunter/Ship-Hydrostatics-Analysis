@@ -91,8 +91,7 @@ The core goal is not only producing a hull model, but also demonstrating **engin
 * **/Models**: Original Maxsurf (`.msd`) and SolidWorks (`.SLDPRT`, `.step`) files.
 * **/Calculations**: Excel workbooks containing offset conversions and hydrostatic tables.
 * **/Media**: Body plans, sheer plans, and high-resolution stability plots.
-
-* 
+ 
 ---
 
 ## 🔁 How to Reproduce
