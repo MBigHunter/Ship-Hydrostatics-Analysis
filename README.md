@@ -14,7 +14,7 @@ This repository contains a full technical project on **Naval Architecture**, foc
 ## 📊 Key Results
 ### 1. 3D Hull Modeling
 The hull was developed using NURBS surfaces based on non-dimensional offset data.
-![Hull Design](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Shear%20Plan.png)
+![Hull Design](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Hull%20Design.png)
 
 ### 2. Hydrostatic & Bonjean Curves
 Comprehensive analysis of ship stability and buoyancy distribution.
