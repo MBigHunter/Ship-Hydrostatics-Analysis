@@ -1,33 +1,37 @@
 # 🚢 Ship Hydrostatics & Hull Modeling Project
 
 ## 📝 Overview
-This repository contains a full technical project on **Naval Architecture**, focusing on 3D hull modeling and hydrostatic analysis. The project was completed as part of the Ship Hydrostatics course at **Sharif University of Technology** under the supervision of Dr. Khorasanchi.
+This repository showcases a comprehensive **Naval Architecture** project focused on the end-to-end process of ship hull design and hydrostatic evaluation. Developed at **Sharif University of Technology** under the supervision of **Dr. Khorasanchi**, this project bridges the gap between theoretical fluid statics and practical computer-aided design.
 
-> **Note:** The main technical reports and documents are in **Persian**, but the repository structure and brief descriptions are provided in English for international accessibility.
+> **Note:** Technical reports are written in **Persian**, while the documentation and repository structure are maintained in **English** for global outreach.
+
+## 🚀 Key Achievements
+* **Geometric Transformation:** Converted non-dimensional offset tables into a precise 1:1 scale 3D model.
+* **Surface Fairing:** Achieved a high-quality NURBS surface hull in Maxsurf with smooth curvature distribution.
+* **Integrity Verification:** Cross-validated software-generated hydrostatic data with manual Excel-based mathematical models.
+* **Stability Profiling:** Conducted full intact stability analysis and generated Bonjean curves for longitudinal strength assessment.
 
 ## 🛠 Tools & Technologies
-* **Maxsurf Modeler:** Hull geometry and surface fairing.
-* **Maxsurf Stability:** Hydrostatic calculations and Bonjean curves.
-* **SolidWorks:** CAD modeling and 3D visualization.
-* **MS Excel:** Data processing of offset tables and manual verification.
+* **Maxsurf Modeler & Stability:** 3D Surface modeling & Hydrostatic analysis.
+* **SolidWorks:** Mechanical CAD design and .STEP export.
+* **MS Excel:** Advanced data processing and numerical verification.
 
-## 📊 Key Results
-### 1. 3D Hull Modeling
-The hull was developed using NURBS surfaces based on non-dimensional offset data.
-![Hull Design](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Hull%20Design.png)
+## 📊 Project Visuals
+### 1. 3D Hull Geometry
+*Precise modeling of the ship's hull using Maxsurf Modeler.*
+![Hull Design](Media/Hull%20Design.png)
 
-### 2. Hydrostatic & Bonjean Curves
-Comprehensive analysis of ship stability and buoyancy distribution.
-![Bonjean Curve](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Bonjean%20Curve.png)
+### 2. Hydrostatic & Stability Analysis
+*Generation of Bonjean and GZ curves to ensure maritime safety standards.*
+![Bonjean Curve](Media/Bonjean%20Curve.png)
+![Gz Curve](Media/Stability%20Curve%203.png)
 
-![Gz Curve](https://github.com/MBigHunter/Ship-Hydrostatics-Analysis/blob/main/Media/Stability%20Curve%203.png)
+## 📂 Repository Structure
+* **/Documents**: Project brief and the final Technical Report (PDF).
+* **/Models**: Original Maxsurf (`.msd`) and SolidWorks (`.SLDPRT`, `.step`) files.
+* **/Calculations**: Excel workbooks containing offset conversions and hydrostatic tables.
+* **/Media**: Body plans, sheer plans, and high-resolution stability plots.
 
-## 📂 Repository Contents
-* **/Documents**: Project description and final technical report (PDF).
-* **/Models**: Maxsurf design files and SolidWorks CAD parts.
-* **/Calculations**: Excel sheets for offset conversion and manual stability checks.
-* **/Media**: High-resolution plots, body plans, and 3D renders.
-
-## 📧 Contact
-**Mohammad Aldaghi** - Marine Engineering Student at Sharif University of Technology.
-<br>**Email** - Aldaghi34@gmail.com --- Moh.aldaghi84@sharif.edu
+## 📬 Contact & Connect
+**Mohammad Aldaghi** *Marine Engineering Student | Sharif University of Technology* [![Email](https://img.shields.io/badge/Email-Aldaghi34%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:Aldaghi34@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Moh.aldaghi84%40sharif.edu-red?style=flat-square&logo=gmail)](mailto:Moh.aldaghi84@sharif.edu)
